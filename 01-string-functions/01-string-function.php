@@ -1,0 +1,27 @@
+<?php
+$str = 'ali beigi';
+$str1 = "hel\nlow world";
+$number  = "1000000001152";
+echo is_string($str);
+echo "<hr>";
+echo strlen($str);
+echo "<hr>";
+echo lcfirst($str);
+echo "<hr>";
+echo ucfirst($str);
+echo "<hr>";
+echo ucwords($str);
+echo "<hr>";
+echo strtoupper($str);
+echo "<hr>";
+echo strtolower($str);
+echo "<hr>";
+echo ltrim($str,"ai");
+echo "<hr>";
+echo rtrim($str,"i");
+echo "<hr>";
+echo trim($str);
+echo "<hr>";
+echo nl2br($str1);
+echo "<hr>";
+echo number_format($number);

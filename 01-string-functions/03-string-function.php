@@ -1,0 +1,23 @@
+<?php 
+echo stripos("Ali is 30 years old" , "IS");
+echo "<hr>";
+echo strpos("Ali is 30 years old" , "is");
+echo "<hr>";
+$str = "Ali beigi";
+echo md5($str);
+echo "<hr>";
+$str1 = '<a href="https://www.7learn.com">سون لرن</a>';
+echo $str1;
+echo "<br>";
+echo htmlentities($str1);
+echo "<hr>";
+$str2 = "&lt;a href=&quot;https://www.7learn.com&quot;&gt;سون لرن&lt;/a&gt";
+//echo html_entity_decode($str2);
+$str3 = '<a href="https://www.7learn.com">سون لرن</a>';
+echo htmlspecialchars($str3);
+echo "<br>";
+echo htmlspecialchars_decode($str3);
+echo "<hr>";
+$str4 = "ali is <b>20</b> years old";
+echo $str4."<br>";
+echo strip_tags($str4);
